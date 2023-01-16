@@ -1,0 +1,91 @@
+:root{
+    --white:#f7f7f9;
+    --orange:#F39C12;
+    --black:#1C2833;
+    --red:#E74C3C;
+    --perpur:#AF7AC5;
+    --blue:#5499C7;
+    --gray:#808B96;
+    --green:#16A085;
+    --btnclr:#2E4053;
+}
+@font-face {
+    font-family: IranBlack;
+    src: url(./Font/IRANBlack.ttf);
+}
+*{
+    margin: 0;
+}
+body{
+    background: var(--black);
+}
+.text{
+    font-family:IranBlack;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: var(--orange);
+}
+.timer{
+    display: flex;
+    justify-content: center;
+}
+.div-timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timerzero{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15%;
+    color: var(--white);
+}
+.hour1{
+    background: var(--red);
+}
+.minute1{
+    background: var(--perpur);
+}
+.second1{
+    background: var(--blue);
+}
+.timer-label{
+    font-family: IranBlack;
+    color: var(--gray);
+    font-size:20px ;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    font-family: IranBlack;
+    font-size: larger;
+    margin: 15px 10px 0px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background: var(--btnclr);
+    border: 0px;
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity: 1;
+}
+.Start{
+    color: var(--green);
+}
+.Stop{
+    color: var(--red);
+}
+.Reset{
+    color: var(--orange);
+}
+.Text{
+    color: var(--blue);
+}
+.Mood{
+    color: var(--white);
+}
